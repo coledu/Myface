@@ -1,0 +1,70 @@
+CREATE TABLE facebook_hobbies (
+ID INT,
+Hobbies VARCHAR(28) CHARACTER SET utf8
+);
+INSERT INTO facebook_hobbies VALUES (1023,'Sports, Movies, MMA');
+INSERT INTO facebook_hobbies VALUES (2348,'Movies, Animes, Netflix');
+INSERT INTO facebook_hobbies VALUES (3284,'Books, Movies');
+INSERT INTO facebook_hobbies VALUES (1234,'Sports');
+INSERT INTO facebook_hobbies VALUES (1235,'Null');
+INSERT INTO facebook_hobbies VALUES (1236,'Dancing, Movies');
+INSERT INTO facebook_hobbies VALUES (6874,'Movies, Animes, Netflix');
+INSERT INTO facebook_hobbies VALUES (9003,'Music, Movie');
+INSERT INTO facebook_hobbies VALUES (6969,'Drama, Dancing, Hiking');
+INSERT INTO facebook_hobbies VALUES (9696,'Hiking, Running');
+INSERT INTO facebook_hobbies VALUES (5409,'Video Games, Sports, Movies');
+INSERT INTO facebook_hobbies VALUES (8201,'Dance');
+INSERT INTO facebook_hobbies VALUES (3201,'Video Games ');
+INSERT INTO facebook_hobbies VALUES (4404,'Sports, Movies, MMA');
+INSERT INTO facebook_hobbies VALUES (3131,'MMA');
+INSERT INTO facebook_hobbies VALUES (7272,'Working out');
+INSERT INTO facebook_hobbies VALUES (9867,'Movies, Dance, Drama');
+INSERT INTO facebook_hobbies VALUES (9820,'Dance, Movie');
+INSERT INTO facebook_hobbies VALUES (9234,'Movies');
+INSERT INTO facebook_hobbies VALUES (8002,'Books ');
+INSERT INTO facebook_hobbies VALUES (4004,'Books, Movies');
+INSERT INTO facebook_hobbies VALUES (6068,'Null');
+INSERT INTO facebook_hobbies VALUES (3069,'Sports');
+INSERT INTO facebook_hobbies VALUES (4498,'Procastation');
+INSERT INTO facebook_hobbies VALUES (5233,'Running, Video Games, Eating');
+INSERT INTO facebook_hobbies VALUES (6407,'Books, Learning, Reading');
+INSERT INTO facebook_hobbies VALUES (9999,'Cooking, Netflix');
+INSERT INTO facebook_hobbies VALUES (6666,'Netflix, Video Games, Hiking');
+INSERT INTO facebook_hobbies VALUES (4444,'Dancing, Movies');
+
+CREATE TABLE facebook_data (
+ID INT,
+Location VARCHAR(20) CHARACTER SET utf8,
+Age INT,
+Gender VARCHAR(1) CHARACTER SET utf8,
+Sex_interest VARCHAR(1) CHARACTER SET utf8
+);
+INSERT INTO facebook_data VALUES (1023,'Monticello, Ky',21,'M','F');
+INSERT INTO facebook_data VALUES (2348,'Houston, Tx',24,'M','F');
+INSERT INTO facebook_data VALUES (3284,'Berea, Ky',27,'F','B');
+INSERT INTO facebook_data VALUES (1234,'Lexington, Ky',42,'M','F');
+INSERT INTO facebook_data VALUES (1235,'Richmond, Ky',33,'F','F');
+INSERT INTO facebook_data VALUES (1236,'Russells Springs, Ky',36,'F','M');
+INSERT INTO facebook_data VALUES (6874,'Berea, Ky',19,'F','M');
+INSERT INTO facebook_data VALUES (9003,'Berea, Ky',42,'M','F');
+INSERT INTO facebook_data VALUES (6969,'Monticello, Ky',50,'M','F');
+INSERT INTO facebook_data VALUES (9696,'Frankfort, In',30,'F','F');
+INSERT INTO facebook_data VALUES (5409,'Ney York City, Ny',29,'F','M');
+INSERT INTO facebook_data VALUES (8201,'Berea, Ky',28,'F','M');
+INSERT INTO facebook_data VALUES (3201,'Monticello, Ky',34,'F','A');
+INSERT INTO facebook_data VALUES (4404,'Russells Springs, Ky',38,'M','F');
+INSERT INTO facebook_data VALUES (3131,'Richmond, Ky',29,'M','F');
+INSERT INTO facebook_data VALUES (7272,'Berea, Ky',22,'M','F');
+INSERT INTO facebook_data VALUES (9867,'Berea, Ky',23,'F','M');
+INSERT INTO facebook_data VALUES (9820,'Louisville, Ky',18,'M','F');
+INSERT INTO facebook_data VALUES (9234,'Frankfort, In',16,'M','F');
+INSERT INTO facebook_data VALUES (8002,'Frankfort, Ky',14,'F','M');
+INSERT INTO facebook_data VALUES (4004,'Berea, Ky',15,'M','M');
+INSERT INTO facebook_data VALUES (6068,'Lexington, Ky',16,'F','F');
+INSERT INTO facebook_data VALUES (3069,'Berea, Ky',24,'M','F');
+INSERT INTO facebook_data VALUES (4498,'Berea, Ky',25,'F','M');
+INSERT INTO facebook_data VALUES (5233,'Berea, Ky',28,'M','F');
+INSERT INTO facebook_data VALUES (6407,'Richmond, Ky',22,'M','F');
+INSERT INTO facebook_data VALUES (9999,'Lexington, Ky',23,'F','M');
+INSERT INTO facebook_data VALUES (6666,'Null',39,'F','F');
+INSERT INTO facebook_data VALUES (4444,'Berea, Ky',40,'M','F');
